@@ -8,7 +8,8 @@
 
 ## Guide
 
-- Install Windows Device Recovery Tools (it installs drivers we need).
+- Install Windows Device Recovery Tool (it installs drivers we need).
+- Remove μSD card from your device.
 - Turn on your phone, unlock it and plug it to PC.
 - Start WPInternals, read `Getting started` section and then navigate to `Download` section (the left menu).
 - Fill the `Producttype` and `Productcode` fields (if they are not filled automatically), click `search` and then `Download all`.
