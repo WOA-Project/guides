@@ -9,6 +9,7 @@
 ## Guide
 
 - Install Windows Device Recovery Tool (it installs drivers we need).
+- Disable BitLocker on the device.
 - Remove μSD card from your device.
 - Turn on your phone, unlock it and plug it to PC.
 - Start WPInternals, read `Getting started` section and then navigate to `Download` section (the left menu).
