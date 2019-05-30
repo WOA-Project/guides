@@ -9,9 +9,8 @@
 ## Guide
 
 - Install Windows Device Recovery Tool (it installs drivers we need).
-- Disable BitLocker on the device.
 - Remove μSD card from your device.
-- Turn on your phone, unlock it and plug it to PC.
+- Turn on your phone, unlock it, disable the BitLocker protection in settings and plug it to PC.
 - Start WPInternals, read `Getting started` section and then navigate to `Download` section (the left menu).
 - Fill the `Producttype` and `Productcode` fields (if they are not filled automatically), click `search` and then `Download all`.
 - Check the version of your Windows 10 Mobile, if it's bigger than `10.0.15254.547`, you can't unlock your phone, you have 2 options: either you wait for a new release of WPInternals, or you can flash back old version of Windows 10 Mobile.
