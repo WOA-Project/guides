@@ -18,3 +18,18 @@
 - Wait for WPInternals to do their job, WPInternals may need an assistance, so pay attention what WPInternals tell you.
 - Boot phone into normal mode.
 - You have successfully unlocked the bootloader on your Lumia!
+
+## Troubleshooting
+
+If running on a Windows with only .NET 4.7.2 or newer you might see issues with WPInternals, with an app config file you can as a workaround ensure it's running under the latest framework and with required SSL settings. 
+Create a file named `WPinternals.exe.config` in same folder as `WPinternals.exe` with the following contents
+```xml
+<configuration>
+    <runtime>
+        <AppContextSwitchOverrides value="Switch.System.Net.DontEnableSystemDefaultTlsVersions=false;Switch.System.Net.DontEnableSchUseStrongCrypto=false"/>
+    </runtime>
+    <startup>
+        <supportedRuntime version="v4.0" sku=".NETFramework,Version=v4.7" />
+    </startup>
+</configuration>
+```
