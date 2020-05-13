@@ -2,8 +2,7 @@
 ## Table of content
 
  1. [Disclaimers](#disclaimers)
- 2. [Important information about this project](#important-information-about-this-project)
- 3. [Unlocking your phone bootloader](#unlocking-your-phone-bootloader)
+ 2. [Unlocking your phone bootloader](#unlocking-your-phone-bootloader)
 	 1. [Prerequisites](#prerequisites)
 	 2. [Windows Phone checklist](#windows-phone-checklist)
 	 3. [Using WPinternals to unlock your phone bootloader](#using-wpinternals-to-unlock-your-phone-bootloader)
@@ -15,22 +14,6 @@
  Some parts of this project are experimental at best, or not working at all. Be sure to read the current status of what works, and what doesn't as well as the Q&A.
  
  This project is not sold, and can't be sold. If you paid for this, you have been scammed. Microsoft Windows and Windows 10 on ARM are trademarks of Microsoft Corporation.
- 
- ## Important information about this project
- 
- It is important you read the latest information about this project.
- 
- You can find the latest up to date status about what works and what doesn't here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/Status
- 
- You can find information about general usability questions here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/Q&A
- 
- You can find changelogs here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/Changelog
- 
- You can find information about switching your USB port roles here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/USB-Mode-Switching
- 
- You can find information about pre-release vibration motor settings here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/Vibration-Preliminary-Settings
- 
- You can find information about FM Radio here: https://github.com/WOA-Project/MSM8994-8992-NT-ARM64-Drivers/wiki/FM-Radio
  
  ## Unlocking your phone bootloader
  
