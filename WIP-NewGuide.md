@@ -1,4 +1,4 @@
-# Installing Windows 10 on ARM on your Lumia 950/950 XL
+# Unlocking the bootloader
 ## Table of content
 
  1. [Disclaimers](#disclaimers)
@@ -7,23 +7,6 @@
 	 1. [Prerequisites](#prerequisites)
 	 2. [Windows Phone checklist](#windows-phone-checklist)
 	 3. [Using WPinternals to unlock your phone bootloader](#using-wpinternals-to-unlock-your-phone-bootloader)
-	 4. [Common failures](#common-failures)
- 4. [Normal installation method](#normal-installation-method)
-	 1. [Prerequisites](#prerequisites-1)
-	 2. [Using WOA Deployer to install Windows 10 on ARM on your device](#using-woa-deployer-to-install-windows-10-on-arm-on-your-device)
-	 3. [Enabling Dual Boot](#enabling-dual-boot)
- 5. [Advanced installation method](#advanced-installation-method)
-	 1. [Prerequisites](#prerequisites-2)
-	 2. [Partitioning](#partitioning)
-	 3. [Bootloader setup](#bootloader-setup)
-	 4. [Adding Developer menu to the boot menu](#adding-developer-menu-to-the-boot-menu)
-	 5. [Windows installation](#windows-installation)
-	 6. [Installing drivers](#installing-drivers)
- 6. [Full Flash Update (FFU) installation method](#full-flash-update-ffu-installation-method)
- 7. [Common installation failures](#common-installation-failures)
- 8. [Updating drivers](#updating-drivers)
- 9. [Updating UEFI (arm64 bootstrap)](#updating-uefi-arm64-bootstrap)
- 10. [Updating BootShim (UEFI shim loader)](#updating-bootshim-uefi-shim-loader)
  
  ## Disclaimers
  
@@ -252,36 +235,3 @@ In the device field of the tool, select the drive letter corresponding to your p
 
 Figure 24 The "open" dialog with the bottom field 
  
- ### Common failures
- 
- ## Normal installation method
- 
- ### Prerequisites
- 
- ### Using WOA Deployer to install Windows 10 on ARM on your device
- 
- ### Enabling Dual Boot
- 
- ## Advanced installation method
- 
- ### Prerequisites
- 
- ### Partitioning
- 
- ### Bootloader setup
- 
- ### Adding Developer menu to the boot menu
- 
- ### Windows installation
- 
- ### Installing drivers
- 
- ## Full Flash Update (FFU) installation method
- 
- ## Common installation failures
- 
- ## Updating drivers
- 
- ## Updating UEFI (arm64 bootstrap)
- 
- ## Updating BootShim (UEFI shim loader)
